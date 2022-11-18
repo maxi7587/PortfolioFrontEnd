@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway');
+*{font-family: 'Raleway', 'century gothic', sans-serif;
+    box-sizing: border-box;}
+body{background-color: #C4FFD0;}
+nav{
+    margin-top: 1rem;
+    display: flex;
+    box-shadow: 0em .0em .5em #1cec46; 
+    align-items: center;
+    justify-content: space-around;
+  /*  background-color: rgb(194, 132, 132);*/
+}
+img.logoArgProg{
+    width: 4rem;
+    height: auto;
+    border-radius: 50%;
+}
+.programa h2{
+    font-size: 0.8rem;
+}
+.social img{
+   width: 2.5rem;
+   margin: auto 0 auto 8px;
+}
+.social a{
+    text-decoration: none;
+    opacity: .4;
+}
+.social a:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.imgRedes:hover{
+    box-shadow: 0 .1rem .5rem #1cec46;
+    /* x y blur color */
+}
+.login{border-radius: .25rem; padding: .5rem 1rem; color: #eee; font-size: 1rem; background-color: #007FFF;}
+.login:hover{cursor: pointer; text-shadow: 0 0 .5rem #1cec46;background-color: #4194e7;}
+img.banner{
+    margin-top: 1rem;
+    border-radius: 20px;
+    width:100%;
+    height: auto;
+}
+img.foto-perfil{
+     width: calc(4rem + 8vw);
+     height: auto;
+     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+     /*position:absolute;
+     top: 50%;
+     left: 3%;
+     z-index: 1;*/
+ }
