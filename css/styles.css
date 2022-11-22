@@ -31,27 +31,41 @@ img.logoArgProg{
     cursor: pointer;
 }
 .imgRedes:hover{
-    box-shadow: 0 .1rem .5rem #1cec46;
+    box-shadow: 0 .1rem .5rem #007FFF; 
     /* x y blur color */
 }
-.login{border-radius: .25rem; padding: .5rem 1rem; color: #eee; font-size: 1rem; background-color: #007FFF;}
-.login:hover{cursor: pointer; text-shadow: 0 0 .5rem #1cec46;background-color: #4194e7;}
+.login{border: .1rem solid #0066cc; border-radius: .25rem; padding: .5rem 1rem; color: #eee; font-size: 1rem; background-color: #007FFF;}
+.login:hover{cursor: pointer; box-shadow: 0 .1rem .5rem #007FFF; background-color: #4194e7;}
 img.banner{
+    /*position: absolute;*/
     margin-top: 1rem;
     border-radius: 20px;
     width:100%;
     height: auto;
 }
 img.foto-perfil{
-     width: calc(4rem + 8vw);
-     height: auto;
-     border-radius: 50%;
+    width: min(calc(4rem + 8vw));
+    height: auto;
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-
-     /*position:absolute;
-     top: 50%;
-     left: 3%;
-     z-index: 1;*/
+    /*position:absolute;
+    z-index: 1;
+    top: 90%;
+    left: 3%;*/
+     
  }
+h1{
+    font-size: min(calc(2vw + .5rem), 2rem);
+    font-weight: bold;
+}
+h2{
+    font-size: min(calc(1vw + .5rem), 1rem);
+}
+h3{
+    font-size: min(calc(1vw + .5rem), 1rem);
+}
+button.btn.btn-link{
+    font-size: 0.8rem;
+}
