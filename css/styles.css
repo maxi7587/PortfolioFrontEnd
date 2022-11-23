@@ -43,6 +43,9 @@ img.banner{
     width:100%;
     height: auto;
 }
+#contenedor-perfil {
+    margin-top: -2rem;
+}
 img.foto-perfil{
     width: min(calc(4rem + 8vw));
     height: auto;
